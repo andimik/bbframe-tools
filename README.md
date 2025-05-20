@@ -35,4 +35,4 @@ Don't forget to set `DTV_STREAM_ID to 0x80000000`, elsewise you will only receiv
 - [x] TBS 6903X (v1, v2 tested)
 - [ ] TBS 6909X (v1 and v2 both untested so far)
 
-For these TBS cards please create a file `/etc/modprobe.d/stid135.conf` (as root) and add the following content: `added options stid135 bbframe=1` and reboot.
+For these TBS cards please create a file `/etc/modprobe.d/stid135.conf` (as root) and add the following content: `options stid135 bbframe=1` and reboot.
